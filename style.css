@@ -132,12 +132,14 @@ transform:rotate(370deg) scale(2);
 -o-transform:rotate(360deg) scale(2);
 transform:rotate(358deg) scale(2);
 }
-.words
-{color: #ccffcc; font-family: "Great Vibes", cursive; font-size: 165px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; margin-left: 0px;  text-shadow: 0 1px 1px #fff;}
-.Invitation
-{ color: #F0FFFF; font-size: 29px; font-family: "Great Vibes Baskerville", serif; line-height: 45px; text-align: top; text-shadow: 0 1px 1px #fff; padding-top: 20px; }
+
 .location
-{ color: ##fdfefd; font-size: 29px; font-family: "Libre Baskerville", serif; line-height: 45px; text-shadow: 0 1px 1px #fff; padding-top: 20px; 
+{ color: #fdfefd; 
+  font-size: 29px; 
+  font-family: "Libre Baskerville", serif; 
+  line-height: 45px; 
+  text-shadow: 0 1px 1px #fff; 
+  padding-top: 20px; 
 }
 .sayan
 {
