@@ -133,7 +133,7 @@ transform:rotate(370deg) scale(2);
 transform:rotate(358deg) scale(2);
 }
 .words
-{color: #ccffcc; font-family: "Great Vibes", cursive; font-size: 165px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; margin-left: 150px;  text-shadow: 0 1px 1px #fff;}
+{color: #ccffcc; font-family: "Great Vibes", cursive; font-size: 165px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; margin-left: 0px;  text-shadow: 0 1px 1px #fff;}
 .Invitation
 { color: #F0FFFF; font-size: 29px; font-family: "Great Vibes Baskerville", serif; line-height: 45px; text-align: top; text-shadow: 0 1px 1px #fff; padding-top: 20px; }
 .location
@@ -141,7 +141,12 @@ transform:rotate(358deg) scale(2);
 }
 .sayan
 {
-  margin-left: 55px;
+  margin-left: 0px;
+  color: #fdfefd;
+}
+.top img
+{
+  margin-left: 130px;
   color: #fdfefd;
 }
 .and {
@@ -226,25 +231,4 @@ body{
     font-family: 'Niconne', cursive;
     font-size: 1.2rem;
 
-}
-.about{
-  width: 100%;
-  padding: 78px 0px;
-  background-color: #191919;
-}
-.about img{
-  height: auto;
-  width: 420px;
-}
-.about-text
-{
-  width: 550px;
-}
-.main{
-  width: 1130px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
