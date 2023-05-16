@@ -137,7 +137,7 @@ transform:rotate(358deg) scale(2);
 .Invitation
 { color: #F0FFFF; font-size: 29px; font-family: "Great Vibes Baskerville", serif; line-height: 45px; text-align: top; text-shadow: 0 1px 1px #fff; padding-top: 20px; }
 .location
-{ color: #ccffcc; font-size: 29px; font-family: "Libre Baskerville", serif; line-height: 45px; text-shadow: 0 1px 1px #fff; padding-top: 20px; 
+{ color: ##fdfefd; font-size: 29px; font-family: "Libre Baskerville", serif; line-height: 45px; text-shadow: 0 1px 1px #fff; padding-top: 20px; 
 }
 .sayan
 {
@@ -160,7 +160,8 @@ transform:rotate(358deg) scale(2);
 }
 .w3-circle
 {
-  margin-left: 20px;
+  margin: 30px;
+  margin-right: 100px;
 }
 .anandamoyee{
   color: #fdfefd;
