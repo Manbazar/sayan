@@ -1,0 +1,213 @@
+/*.darkBG{
+	background: #999;
+}
+.darkerBG{
+	background: #666;
+}
+.darkestBG{
+	background: #333;
+}
+.myPanal{
+	margin: 3%;
+}*/
+/*.myPanel .heading{
+	background: blue;
+}*/
+ul.gallery li {
+	background-color: white;
+	background-image: url("C:\Users\sayan dutta\Desktop\learning\wall1");
+
+}
+
+  
+ul.gallery li a {
+	float: left;
+	padding: 10px 10px 25px 10px;
+	background: #0C0C0C;
+	border: 1px solid #fff;
+	-moz-box-shadow: 0px 2px 15px #333;
+	position: relative;
+	 
+}
+/*ul.gallery li a.pic-1 {
+	z-index: 1;
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+}
+ul.gallery li a.pic-2 {
+	z-index: 5;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+}
+ul.gallery li a.pic-3 {
+	z-index: 3;
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
+}*/
+
+
+
+#polaroid {
+width:700px;
+margin:40px auto;
+list-style:none;
+}
+#polaroid:after {
+content:'';
+display:block;
+clear:both;
+}
+#polaroid li {
+transform:rotate(10deg);
+-ms-transform:rotate(10deg);
+-moz-transform:rotate(10deg); 
+-webkit-transform:rotate(10deg);
+-o-transform:rotate(10deg);
+float:left;
+margin:-10px;
+}
+#polaroid li:nth-child(odd) {
+transform:rotate(-10deg);
+-ms-transform:rotate(-10deg);
+-moz-transform:rotate(-10deg); 
+-webkit-transform:rotate(-10deg); 
+-o-transform:rotate(-10deg);
+position:relative;
+bottom:10px;
+left:5px;
+}
+#polaroid li:nth-child(3n) {
+transform:rotate(2deg);
+-ms-transform:rotate(2deg);
+-moz-transform:rotate(2deg); 
+-webkit-transform:rotate(2deg);
+-o-transform:rotate(2deg);
+position:relative;
+top:-10px;
+right:10px;
+}
+#polaroid li:hover {
+position:relative;
+z-index:1;
+}
+#polaroid a {
+float:left;
+padding:10px 10px 45px 10px;
+width:160px;
+height:160px;
+background:#fff;
+box-shadow:0px 4px 6px #000, inset 0 0 6px #333;
+border-radius:4px;
+cursor:default;
+text-align:center;
+text-decoration:none;
+color:#000;
+}
+#polaroid a:before {
+position:absolute;
+content:'';
+width:160px;
+height:160px;
+box-shadow:inset 0 0 5px 5px #000;
+}
+#polaroid a:after {
+content:attr(title);
+display:block;
+padding:7px 0 0;
+font:bold 16px Times, serif;
+}
+#polaroid a:hover {
+-webkit-transition:all .5s ease-in-out;
+-moz-transition:all .5s ease-in-out;
+-o-transition:all .5s ease-in-out;
+transition:all .5s ease-in-out;
+-webkit-transform:rotate(350deg) scale(2);
+-moz-transform:rotate(350deg) scale(2);
+-o-transform:rotate(350deg) scale(2);
+transform:rotate(350deg) scale(2);
+}
+#polaroid li:nth-child(odd) a:hover {
+-webkit-transform:rotate(370deg) scale(2);
+-moz-transform:rotate(370deg) scale(2);
+-o-transform:rotate(370deg) scale(2);
+transform:rotate(370deg) scale(2);
+}
+#polaroid li:nth-child(3n) a:hover {
+-webkit-transform:rotate(358deg) scale(2);
+-moz-transform:rotate(360deg) scale(2);
+-o-transform:rotate(360deg) scale(2);
+transform:rotate(358deg) scale(2);
+}
+.words
+{color: #ccffcc; font-family: "Great Vibes", cursive; font-size: 165px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #fff;}
+/*.Invitation
+{ color: #F0FFFF; font-size: 29px; font-family: "Great Vibes Baskerville", serif; line-height: 45px; text-align: center; text-shadow: 0 1px 1px #fff; padding-top: 20px; } */
+.location
+{ color: #ccffcc; font-size: 29px; font-family: "Libre Baskerville", serif; line-height: 45px; text-align: center; text-shadow: 0 1px 1px #fff; padding-top: 20px; 
+}
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+.Invitation {
+  --s: 0.1em;   /* the thickness of the line */
+  --c: #ccffcc; /* the color */
+  
+  color: #ffcc99;
+  padding-bottom: var(--s);
+  background: 
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.5s;
+}
+.Invitation:hover {--_p: 100%}
+
+
+.Invitation {
+  height: 20vh;
+  margin: 0;
+  display: grid;
+  place-content: center;
+}
+.Invitation {
+  font-family: system-ui, sans-serif;
+  font-size: 5rem;
+  cursor: pointer;
+}
+.headline{
+		  font-size: 15rem;
+	    text-align: center;
+      height:20vh;
+      line-height: 20vh;
+	    color: #fcedd8;
+	   background: #d52e3f;
+	   	font-family: 'Niconne', cursive;
+	    font-weight: 700;
+      text-shadow: 5px 5px 0px #eb452b, 
+                  10px 10px 0px #efa032, 
+                  15px 15px 0px #46b59b, 
+                  20px 20px 0px #017e7f, 
+                  25px 25px 0px #052939, 
+                  30px 30px 0px #c11a2b, 
+                  35px 35px 0px #c11a2b, 
+                  40px 40px 0px #c11a2b, 
+                  45px 45px 0px #c11a2b;
+}
+
+.headline{
+    text-align: center;
+    font-family: "Helvetica";
+    font-size:0.8rem;
+}
+
+.headline{
+    color: #d52e3f;
+    text-decoration: none;
+    font-family: 'Niconne', cursive;
+    font-size: 1.2rem;
+
+}
