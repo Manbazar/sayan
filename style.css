@@ -13,12 +13,6 @@
 /*.myPanel .heading{
 	background: blue;
 }*/
-ul.gallery li {
-	background-color: white;
-	background-image: url("C:\Users\sayan dutta\Desktop\learning\wall1");
-
-}
-
   
 ul.gallery li a {
 	float: left;
@@ -139,18 +133,40 @@ transform:rotate(370deg) scale(2);
 transform:rotate(358deg) scale(2);
 }
 .words
-{color: #ccffcc; font-family: "Great Vibes", cursive; font-size: 165px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #fff;}
-/*.Invitation
-{ color: #F0FFFF; font-size: 29px; font-family: "Great Vibes Baskerville", serif; line-height: 45px; text-align: center; text-shadow: 0 1px 1px #fff; padding-top: 20px; } */
+{color: #ccffcc; font-family: "Great Vibes", cursive; font-size: 165px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; margin-left: 150px;  text-shadow: 0 1px 1px #fff;}
+.Invitation
+{ color: #F0FFFF; font-size: 29px; font-family: "Great Vibes Baskerville", serif; line-height: 45px; text-align: top; text-shadow: 0 1px 1px #fff; padding-top: 20px; }
 .location
-{ color: #ccffcc; font-size: 29px; font-family: "Libre Baskerville", serif; line-height: 45px; text-align: center; text-shadow: 0 1px 1px #fff; padding-top: 20px; 
+{ color: #ccffcc; font-size: 29px; font-family: "Libre Baskerville", serif; line-height: 45px; text-shadow: 0 1px 1px #fff; padding-top: 20px; 
+}
+.sayan
+{
+  margin-left: 55px;
+  color: #fdfefd;
+}
+.and {
+  margin-left: 65px;
+  color: #fdfefd;
+}
+.bhaki
+{
+  margin-left: 195px;
+  color: #fdfefd;
+}
+.w3-circle
+{
+  margin-left: 55px;
+}
+.anandamoyee{
+  color: #fdfefd;
 }
 body{
-    background-image: url('background.jpg');
+    background-image: url("6435.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 } 
+
 .Invitation {
   --s: 0.1em;   /* the thickness of the line */
   --c: #ccffcc; /* the color */
@@ -210,4 +226,25 @@ body{
     font-family: 'Niconne', cursive;
     font-size: 1.2rem;
 
+}
+.about{
+  width: 100%;
+  padding: 78px 0px;
+  background-color: #191919;
+}
+.about img{
+  height: auto;
+  width: 420px;
+}
+.about-text
+{
+  width: 550px;
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
